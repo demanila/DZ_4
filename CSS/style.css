@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}    
+body {
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: rgb(236, 222, 250);
+}
+h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 42px;
+}
+p {
+    margin-bottom: 40px;
+}
+.container,
+.fon,
+.map {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;max-width: 1280px;
+
+}
+.header {
+    background-color: rgb(209, 207, 207);
+}    
+.header .name {
+    font-size:40px;
+    color: blueviolet;
+    
+}   
+.header .logo img {
+    width: 90px;
+    margin-left: 10px;    
+}
+.header .logo,
+.header .name {
+    display: inline-block;
+    vertical-align: middle;
+}
+.header .name {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigator {
+    background-color: rgb(160, 248, 160) ;
+    padding: 20px;
+}
+.navigator li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px solid green;
+    background-color: rgb(140, 17, 240);
+    border-radius: 20px 20px 20px 20px;
+}
+.navigator li:hover {
+   background-color: rgb(204, 151, 247); 
+}
+.navigator a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.img1 {
+    width: 250px;
+    height: 180px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.fon {
+    height: 350px;
+    width: 600px;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-image: url(../images/fon.jpg);
+}
+button {
+    width: 150px;
+    height: 70px;
+    margin-top: 30px;
+    background-color: rgb(250, 78, 78);
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+.main .container img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+.radius {
+    border-radius: 50%;
+}
+h2 {
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(27, 27, 27);
+    color: beige;
+    text-align: center;
+    padding: 20px;
+}
+.footer p {
+    margin-bottom: 0;
+}
+span {
+    font-size: 32px;
+}
+.rules {
+    padding: 20px;
+}
+.rules li {
+    line-height: 30px;
+}
