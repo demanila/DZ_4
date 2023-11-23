@@ -18,11 +18,13 @@ p {
 }
 .container,
 .fon,
-.map {
+.map,
+.field,
+.send,
+.table {
     width: 85%;
     margin-left: auto;
-    margin-right: auto;max-width: 1280px;
-
+    margin-right: auto; max-width: 1280px;
 }
 .header {
     background-color: rgb(209, 207, 207);
@@ -30,20 +32,19 @@ p {
 .header .name {
     font-size:40px;
     color: blueviolet;
-    
+    margin-left: auto;
+    margin-right: auto;
 }   
 .header .logo img {
     width: 90px;
-    margin-left: 10px;    
+    margin-left: 10px;
+    margin-right: 50px;   
+    margin-bottom: -5px; 
 }
 .header .logo,
 .header .name {
     display: inline-block;
     vertical-align: middle;
-}
-.header .name {
-    margin-left: auto;
-    margin-right: auto;
 }
 .navigator {
     background-color: rgb(160, 248, 160) ;
@@ -93,6 +94,17 @@ button {
     font-weight: bold;
     color: blue;
 }
+.but2 {
+    width: 150px;
+    height: 70px;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px red;
+    margin-bottom: 30px;
+}
 .main .container img {
     display: inline-block;
     width: 200px;
@@ -100,9 +112,24 @@ button {
 }
 .radius {
     border-radius: 50%;
+    pointer-events: none;
 }
 h2 {
     padding: 20px;
+}
+.field {
+    text-align: center;
+}
+.send {
+    text-align: center;
+}
+.table td {
+    border: 1px solid black; 
+    text-align: center;
+}
+.table {
+    border-collapse: collapse;
+    margin-bottom: 15px;
 }
 .footer {
     background-color: rgb(27, 27, 27);
